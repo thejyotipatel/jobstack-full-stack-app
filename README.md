@@ -1,4 +1,16 @@
-# jobstack
+<h1 align="center">
+jobstack</h1>
+
+<!-- TABLE OF CONTENTS -->
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Contact](#contact)
+
+<!-- OVERVIEW -->
+
+## Overview
 
 ## npm packages use
 
@@ -11,11 +23,15 @@
 - react-icons
 - concurrently
 - jsonwebtoken
-- https://www.allkeysgenerator.com/
+- allkeysgenerator .com
 - morgan
 - moment.js
 - axios
 - styled-components
-- https://www.mockaroo.com/ - for fake data
+- mockaroo .com - for fake data
 - recharts
-# jobstack-full-stack-app
+
+## Contact
+
+- GitHub [@thejyotipatel](https://github.com/thejyotipatel)
+- Twitter [@thejyotipatel](https://twitter.com/thejyotipatel)

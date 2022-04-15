@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+:root {
+  --step--2: clamp(0.96rem, calc(1.07rem + -0.16vw), 1.04rem);
+  --step--1: clamp(1.2rem, calc(1.27rem + -0.1vw), 1.25rem);
+  --step-0: clamp(1.5rem, calc(1.5rem + 0vw), 1.5rem);
+  --step-1: clamp(1.8rem, calc(1.77rem + 0.15vw), 1.88rem);
+  --step-2: clamp(2.16rem, calc(2.09rem + 0.36vw), 2.34rem);
+  --step-3: clamp(2.59rem, calc(2.46rem + 0.66vw), 2.93rem);
+  --step-4: clamp(3.11rem, calc(2.89rem + 1.07vw), 3.66rem);
+  --step-5: clamp(3.73rem, calc(3.4rem + 1.64vw), 4.58rem);
+
+  /* --bg-color-1: #ffffff; */
+  /* --bg-color-2: #fbebec; */
+  --bg-color-1: #f3ebe8;
+  --bg-color-2: #e4d7d1;
+  /* #f3ebe8 */
+  /* --main-color-1: #f5563d; */
+  /* --main-color-2: #991b15; */
+  --hover-color: #c5615f;
+  --main-color-1: #70999b;
+  --main-color-2: #d5a382;
+  --text-color-1: #686964;
+  --text-color-2: #53544f;
+
+  /* --text-color-1: #000000; */
+  /* --text-color-2: hsla(0, 0%, 18%, 0.8); */
+
+  --light-green: #00800028;
+  --dark-green: #008000d0;
+  --light-red: #ff000028;
+  --dark-red: #aa0505d0;
+
+  --font-family: 'Roboto', sans-serif;
+  --transition: all 0.2s linear;
+  --light-shadow: 0 5px 15px #0000001a;
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  --box-inset-shadow: inset 0 2px 4px 0 hsla(0, 0%, 0%, 0.08);
+
+  --lineHeight-p: 1.5rem;
+  --lineHeight-h3: 1.25rem;
+  --lineHeight-xl: 1.125rem;
+}
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family);
+  line-height: 1.5;
+  font-size: var(--step-0);
+  background-color: var(--bg-color-2);
+  color: var(--text-color-2);
+}
+
+input,
+button {
+  outline: none;
+  border: none;
+  color: var(--text-color-1);
+  background-color: transparent;
+  transition: var(--transition);
+}
+button {
+  cursor: pointer;
+}
+input,
+select,
+option {
+  color: var(--text-color-2);
+}
+
+/* alert style */
+.sucess {
+  box-shadow: 0 2px 4px 0 hsla(0, 0%, 0%, 0.08);
+  border-radius: 4px;
+  padding: 0.5rem;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  color: var(--dark-green);
+  color: var(--dark-green);
+  background-color: var(--light-green);
+  width: 100%;
+}
+.not-sucess {
+  box-shadow: 0 2px 4px 0 hsla(0, 0%, 0%, 0.08);
+  border-radius: 4px;
+  padding: 0.5rem;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  color: var(--dark-red);
+  background-color: var(--light-red);
+  transition: var(--transition);
+  margin: 0.5rem auto;
+  width: 100%;
+}
+.no-jobs {
+  margin: 1em 0;
+  text-align: center;
+}
